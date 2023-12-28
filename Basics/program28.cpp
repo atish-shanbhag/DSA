@@ -15,6 +15,6 @@ int main()
     }
     cout << f << endl;
 }
-// Factorial 
+// Highest Factor 
 // Solution
-// for (int i = n/2; i>=1; i--) reverse for loop since n we have to exclude we start from n/2
+// for (int i = n/2; i>=1; i--) reverse for loop since n we have to reduce complexity we start from n/2

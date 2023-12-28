@@ -9,3 +9,5 @@ int main(){
         a = a*2;
     }
 } // Gometric Progression
+
+//GP = a1*r^(n-1)

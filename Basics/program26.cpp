@@ -13,3 +13,9 @@ int main(){
 // 4 + 3n -3
 // 3n + 3
 // 3(n+1)
+
+//Alternative
+// for(int i=4;i<n-1;i++){
+//         cout<<a<<" ";
+//         a = a+3;
+//     }
