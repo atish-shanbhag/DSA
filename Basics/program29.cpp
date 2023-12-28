@@ -2,7 +2,6 @@
 using namespace std;
 int main()
 {
-    // int f = 1;
     int n;
     cin >> n;
     for (int i = 2; i<=n/2; i++)
@@ -14,4 +13,7 @@ int main()
         }
     }
 }
-// Composite 
+// Composite number
+
+// number which has more than 2 divisors
+// 4 has 1,2 and 4

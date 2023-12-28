@@ -7,8 +7,8 @@ int main()
     int o = n;
     int r =0;
     while(n>0){
-        int digit = n%10;
-        r = r*10 + digit;
+        int ld = n%10;
+        r = r*10 + ld;
         n /= 10;
     }
     cout<<o<<r;

@@ -13,3 +13,20 @@ int main(){
     cout<<r;
 }
 // reverse of a number
+
+//Explaination
+
+// 12345
+
+// r=0;
+// ld = 12345%10 = 5
+// r=0*10;
+// r=0+5;
+// n=12345/10=1234;
+
+// 2nd iternation
+
+// ld = 1234%10 = 4
+// r=5*10
+// r=50+4=54;
+// n=1234/10=123 and so on...
