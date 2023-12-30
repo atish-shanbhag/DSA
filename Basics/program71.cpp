@@ -10,3 +10,7 @@ int main(){
     cout<<raisedPower(a,b)<<endl;
 }
 //power recursion
+
+//other approach 
+// a ^b=e ^ b⋅ln(a)
+
