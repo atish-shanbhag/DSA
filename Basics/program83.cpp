@@ -21,3 +21,4 @@ int main()
     }
     cout << smx;
 }
+// second largest 
