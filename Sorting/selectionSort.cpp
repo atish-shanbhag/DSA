@@ -32,3 +32,8 @@ int main()
     selection_sort(arr, n);
     return 0;
 }
+
+
+// Time Complexity
+
+// O(n^2)
