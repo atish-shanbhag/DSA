@@ -6,9 +6,9 @@ int main(){
     int n = sizeof(a)/4;
     int j = n-1;
     while(i<j){
-        if (a[i] != b[j]) {
-            return false;
-        }
+        // if (a[i] != a[j]) {
+        //     return false;
+        // }
         int temp = a[i];
         a[i] = a[j];
         a[j] = temp;
