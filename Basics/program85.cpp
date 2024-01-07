@@ -9,9 +9,10 @@ int main(){
         // if (a[i] != a[j]) {
         //     return false;
         // }
-        int temp = a[i];
-        a[i] = a[j];
-        a[j] = temp;
+        // int temp = a[i];
+        // a[i] = a[j];
+        // a[j] = temp;
+        swap(a[i], a[j]);
         i++; j--;
     }
     for(int i=0;i<n;i++){
