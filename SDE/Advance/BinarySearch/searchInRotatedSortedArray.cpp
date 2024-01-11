@@ -38,3 +38,15 @@ int search(vector<int> &arr, int n, int k) {
   } else
     return binarySearch(arr, 0, pivot - 1, k);
 }
+
+
+// 4 3
+// 2 3 5 8
+
+
+// Sample output 2:
+// 1
+
+
+// Expected Time Complexity:
+// Try to do this in O(log(n)). 
