@@ -38,3 +38,10 @@ public:
         }
     }
 };
+
+time and space complexity
+
+time: O((N*M)    *(N+M))       * (N+M)
+      traversing marking-1   marking again 0
+
+Space O(1)
