@@ -23,8 +23,10 @@ public:
                         col0 = 0;
                 }
             }
-        }
+        } // N*M
 
+
+// From here to
         for (int i = 1; i < n; i++)
         {
             for (int j = 1; j < m; j++)
@@ -54,14 +56,9 @@ public:
                 matrix[i][0] = 0;
             }
         }
-    }
+    } // Here N*M
 };
 
 time and space complexity
-
-            time : O((N * M) * (N + M)) *
-                   (N + M)
-                       traversing marking
-    - 1 marking again 0
-
-    Space O(1)
+ O(2 * (N * M))
+Space O(1) as we are using extra space
